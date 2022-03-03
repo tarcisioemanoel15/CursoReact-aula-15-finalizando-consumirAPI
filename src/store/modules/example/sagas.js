@@ -1,3 +1,4 @@
+/*
 import { call, put, all, takeLatest } from 'redux-saga/effects';
 import { toast } from 'react-toastify';
 
@@ -22,3 +23,4 @@ function* exampleRequest() {
 }
 
 export default all([takeLatest(types.BOTAO_CLICADO_REQUEST, exampleRequest)]);
+*/

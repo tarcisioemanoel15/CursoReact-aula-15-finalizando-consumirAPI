@@ -1,3 +1,4 @@
+/*
 import * as types from '../types';
 
 export function clicaBotaoRequest() {
@@ -17,3 +18,4 @@ export function clicaBotaoFailure() {
     type: types.BOTAO_CLICADO_FAILURE,
   };
 }
+*/
