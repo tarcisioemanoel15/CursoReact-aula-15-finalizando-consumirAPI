@@ -1,4 +1,4 @@
-/* Checar se é valido ou não
+/* Checar se é valido ou não */
 import React from 'react';
 import PropTypes from 'prop-types';
 
@@ -29,5 +29,3 @@ MyRoute.propTypes = {
     .isRequired,
   isClosed: PropTypes.bool,
 };
-
-*/
