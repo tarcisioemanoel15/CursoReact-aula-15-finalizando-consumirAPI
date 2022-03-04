@@ -4,7 +4,7 @@ import { Container } from '../../styles/GlobalStyles';
 export default function Login() {
   return (
     <Container>
-      <h1>Hello worldd</h1>
+      <h1>Hello world</h1>
     </Container>
   );
 }
