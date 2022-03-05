@@ -7,21 +7,22 @@ const initialState = {
 export default function (state = initialState, action) {
   switch (action.type) {
     case types.BOTAO_CLICADO_SUCCESS: {
-      console.log('Susesso');
+      console.log('Sucesso');
       const newState = { ...state };
       newState.botaoClicado = !newState.botaoClicado;
       return newState;
     }
 
-    case types.BOTAO_CLICADO_REQUEST: {
-      console.log('Fazendo a REQISIÇÃO');
+    case types.BOTAO_CLICADO_FAILURE: {
+      console.log('Deu erro =(');
       return state;
     }
 
-    case types.BOTAO_CLICADO_FAILURE: {
-      console.log('Deu erro');
+    case types.BOTAO_CLICADO_REQUEST: {
+      console.log('Estou fazendo a requisição');
       return state;
     }
+
     default: {
       return state;
     }
